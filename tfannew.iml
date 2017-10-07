@@ -18,6 +18,27 @@
         <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/res" />
       </configuration>
     </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="version" value="true" />
+        </compilerArguments>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/gradleBuild/intermediates/classes/debug" />
@@ -58,13 +79,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
@@ -72,6 +86,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/android-profile" />
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/downloads" />
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/intermediates/assets" />
@@ -94,14 +115,31 @@
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/intermediates/restart-dex" />
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/intermediates/shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/gradleBuild/intermediates/sourceFolderJavaResources" />
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/intermediates/transforms" />
+      <excludeFolder url="file://$MODULE_DIR$/gradleBuild/kotlin" />
+      <excludeFolder url="file://$MODULE_DIR$/gradleBuild/kotlin-build" />
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/gradleBuild/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="support-annotations-25.0.1" level="project" />
+    <orderEntry type="library" exported="" name="kotlin-stdlib-1.1.4-3" level="project" />
+    <orderEntry type="library" exported="" name="kotlin-stdlib-jre7-1.1.4-3" level="project" />
+    <orderEntry type="library" exported="" name="annotations-13.0" level="project" />
+    <orderEntry type="library" exported="" name="camerakit-0.9.13" level="project" />
+    <orderEntry type="library" exported="" name="support-compat-25.0.1" level="project" />
+    <orderEntry type="library" exported="" name="support-fragment-25.0.1" level="project" />
+    <orderEntry type="library" exported="" name="animated-vector-drawable-25.0.1" level="project" />
     <orderEntry type="library" exported="" name="tensorflow-android-1.3.1-alpha" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-25.0.1" level="project" />
+    <orderEntry type="library" exported="" name="support-core-ui-25.0.1" level="project" />
+    <orderEntry type="library" exported="" name="support-media-compat-25.0.1" level="project" />
+    <orderEntry type="library" exported="" name="support-vector-drawable-25.0.1" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-25.0.1" level="project" />
+    <orderEntry type="library" exported="" name="support-core-utils-25.0.1" level="project" />
   </component>
 </module>

@@ -23,6 +23,7 @@ project.buildDir = 'gradleBuild'
 getProject().setBuildDir('gradleBuild')
 
 buildscript {
+    ext.kotlin_version = '1.1.4-3'
     repositories {
         jcenter()
     }
@@ -30,6 +31,8 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.3'
         classpath 'org.apache.httpcomponents:httpclient:4.5.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.4-3"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
@@ -72,6 +75,8 @@ project.ext.ASSET_DIR = projectDir.toString() + '/assets'
 project.ext.TMP_DIR   = project.buildDir.toString() + '/downloads'
 
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 23
@@ -187,5 +192,10 @@ apply from: "download-models.gradle"
 dependencies {
     if (nativeBuildSystem == 'cmake' || nativeBuildSystem == 'none') {
         compile 'org.tensorflow:tensorflow-android:+'
-    }
+    compile 'com.flurgle:camerakit:0.9.13'
+}
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }

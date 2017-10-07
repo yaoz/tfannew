@@ -9,7 +9,8 @@
  */
 // hard coded model files
 // LINT.IfChange
-def models = ['inception5h.zip']
+def models = ['inception5h.zip',
+              'speech_commands_conv_actions.zip']
 // LINT.ThenChange(//tensorflow/examples/android/BUILD)
 
 // Root URL for model archives

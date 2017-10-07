@@ -1,0 +1,11 @@
+-/jni
+-/gradle
+-/.gradle
+-/gradleBuild
+-/gradlew
+-gradlew.bat
+*.iml
+*.pro
+*.properties
+*.png
+*.jpg
